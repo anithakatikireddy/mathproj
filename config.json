@@ -1,0 +1,15 @@
+{
+  "routes":
+  [
+    { "path": "/add/:oper1/:oper2", "method":"get", "callback": "application#add" },
+    { "path": "/multiply/:oper1/:oper2", "method":"get", "callback": "application#multiply" },
+    { "path": "/subtract/:oper1/:oper2", "method":"get", "callback": "application#subtract" },
+    { "path": "/divide/:oper1/:oper2", "method":"get", "callback": "application#divide" }
+  ],
+  "filters":
+  [
+  ],
+  "websockets":
+  [
+  ]
+}
